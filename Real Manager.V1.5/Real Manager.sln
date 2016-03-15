@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{276BCBD1-3B29-4DBA-AE4E-F19930B1261D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Real Manager", "Real Manager\Real Manager.csproj", "{E495FB66-291C-44BB-92AC-5E24CEFC2BDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E495FB66-291C-44BB-92AC-5E24CEFC2BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E495FB66-291C-44BB-92AC-5E24CEFC2BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E495FB66-291C-44BB-92AC-5E24CEFC2BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E495FB66-291C-44BB-92AC-5E24CEFC2BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

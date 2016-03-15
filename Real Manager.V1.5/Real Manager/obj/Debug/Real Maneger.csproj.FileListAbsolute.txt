@@ -1,0 +1,26 @@
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\Real Maneger.dll.config
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\Real Maneger.dll
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\Real Maneger.pdb
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\Antlr3.Runtime.dll
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\Microsoft.Web.Infrastructure.dll
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\Newtonsoft.Json.dll
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\System.Web.Helpers.dll
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\System.Web.Mvc.dll
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\System.Web.Optimization.dll
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\System.Web.Razor.dll
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\System.Web.WebPages.Deployment.dll
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\System.Web.WebPages.dll
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\System.Web.WebPages.Razor.dll
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\WebGrease.dll
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\System.Web.Helpers.xml
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\System.Web.Mvc.xml
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\System.Web.Optimization.xml
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\System.Web.Razor.xml
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\System.Web.WebPages.xml
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\System.Web.WebPages.Deployment.xml
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\System.Web.WebPages.Razor.xml
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\Antlr3.Runtime.pdb
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\bin\Newtonsoft.Json.xml
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\obj\Debug\Real Maneger.csprojResolveAssemblyReference.cache
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\obj\Debug\Real Maneger.dll
+c:\users\daniel\documents\visual studio 2013\Projects\Real Maneger\Real Maneger\obj\Debug\Real Maneger.pdb

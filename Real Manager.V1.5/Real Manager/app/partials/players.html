@@ -1,0 +1,35 @@
+<h2>Players</h2>
+<div class="container">
+    <input class="fillSpace" ng-model="name" type="text" placeholder="Search Players by Name">
+    <div class="row">
+        <div type="button" class="btn btn-default playerCard" data-ng-repeat="player in players |filter: name | orderBy: getSort()" data-ng-click="select(player)">
+            <div>{{player.name}}</div>
+            <div>{{player.stars}}</div>
+            <div>{{player.position}}</div>
+            <div>{{player.price}}</div>
+        </div>
+    </div>
+    
+</div>
+
+<div class="container">
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Sort By
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="" ng-click="setSort('name')">name</a></li>
+            <li><a href="" ng-click="setSort('stars')">stars</a></li>
+            <li><a href="" ng-click="setSort('position')">position</a></li>
+            <li><a href="" ng-click="setSort('price')">price</a></li>
+        </ul>
+    </div>
+</div><br>
+
+<div class="btn-group">
+    <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Edit <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+        <li><a href="/editPlayer" ng-disabled="!selected">Edit Player</a></li>
+    </ul>
+</div>

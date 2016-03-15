@@ -1,0 +1,16 @@
+﻿<div class="span3">
+    <input class="fillSpace" data-ng-model="email" type="text" placeholder="email">
+</div>
+<div class="span6">
+    <input class="fillSpace" data-ng-model="password" type="text" placeholder="password">
+</div>
+<div class="span6">
+    <button  class="btn btn-primary" type="button"
+            data-ng-disabled="!email || !password "
+            data-ng-click="login()">
+        Login
+    </button>
+</div>
+<h3> {{ans}}</h3>
+
+

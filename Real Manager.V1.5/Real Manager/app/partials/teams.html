@@ -1,0 +1,49 @@
+﻿<div class="container-fluid">
+    <h3 class="h3">Teams</h3>
+    <div class="container">
+        <input class="fillSpace col" ng-model="name" type="text" placeholder="Search Teams by Name">
+        <div class="btn-group col">
+            <button type="button" data-toggle="dropdown" class="btn btn-lg dropdown-toggle">Sort By <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="#" ng-click="setSort('name')">name</a></li>
+                <li><a href="#" ng-click="setSort('rank')">rank</a></li>
+            </ul>
+        </div>  
+    </div>
+    
+</div>
+<br>
+<div class="container">
+    <div class="row">
+        <div type="button" class="btn btn-default teamCard"
+             data-ng-repeat="team in teams | filter: name | orderBy: getSort()"
+             ng-click="select(team)"
+             data-toggle="button"
+             aria-pressed="false">
+            <div>{{team.name}}</div>
+            <div>{{team.points}}</div>
+            <div data-ng-hide="true">{{team.players}}</div>
+
+        </div>
+    </div>
+ </div>
+<br/>
+<div class="btn-group">
+    <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Team Menu <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+        <li data-ng-click="addTeam()"><a href="#">Add Team</a></li>
+        <li class="divider"></li>
+        <li id="player_link" class=" link disabled"><a href="/players">Show Players</a></li>
+        <li data-ng-click="editTeam()" id=" edit-link" class="link disabled"><a href="#">Edit Team</a></li>
+        <li data-ng-click="deleteTeam()" id=" edit-link" class="link disabled"><a href="#">Delete Team</a></li>
+    </ul>
+</div>
+
+<h4>{{ans}}</h4>
+
+
+
+
+
+
+

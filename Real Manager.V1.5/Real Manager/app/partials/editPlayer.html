@@ -1,0 +1,35 @@
+﻿<h3 data-ng-show="!isAdd">Edit Player {{playerId}}</h3>
+<h3 data-ng-hide="!isAdd">Add Player</h3>
+
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Player Name" data-ng-model="name">
+    <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
+</div>
+
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Number of Stars" data-ng-model="stars">
+    <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-star"></span></span>
+</div>
+
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Position" data-ng-model="position">
+    <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-circle-arrow-right"></span></span>
+</div>
+
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Price" data-ng-model="price">
+    <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-credit-card"></span></span>
+   
+</div>
+
+
+    <button class="btn btn-primary" type="button"
+            data-ng-disabled="!name || !stars || !position || !price "
+            data-ng-click="savePlayer()">
+        Save Player
+    </button>
+
+
+
+
+

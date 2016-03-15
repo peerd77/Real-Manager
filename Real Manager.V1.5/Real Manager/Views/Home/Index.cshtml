@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Real Manager";
+    Layout = null;
+}
+
+
+<html>
+<head>
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>Real Manager</title>
+    @Styles.Render("~/bundles/mini-spa/style")
+    @Scripts.Render("~/bundles/mini-spa/script")
+</head>
+
+<body ng-app="app">
+    <div class="container">
+        <h2>@ViewBag.Title</h2>
+        <p>Jump to  <a href="/login">login </a>  or <a href="/teams">teams </a></p>
+        <div class=jumbotron ng-view><h3 class="ng-scope">Edit Player</h3>
+
+<div class="input-group ng-scope">
+    <input class="form-control ng-pristine ng-untouched ng-valid" type="text" placeholder="Player Name" ng-model="name">
+    <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
+</div>
+
+<div class="input-group ng-scope">
+    <input class="form-control ng-pristine ng-untouched ng-valid" type="text" placeholder="Number of Stars" ng-model="stars">
+    <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-star"></span></span>
+</div>
+
+<div class="input-group ng-scope">
+    <input class="form-control ng-pristine ng-untouched ng-valid" type="text" placeholder="Position" ng-model="position">
+    <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-circle-arrow-right"></span></span>
+</div>
+
+<div class="input-group ng-scope">
+    <input class="form-control ng-pristine ng-untouched ng-valid" type="text" placeholder="Price" ng-model="price">
+    <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-credit-card"></span></span>
+   
+</div>
+
+<div class="input-group ng-scope">
+    <button class="btn btn-default" type="button" data-ng-click="login()" data-ng-disabled="!name || !stars || !position || !price ">
+        Login
+    </button>
+</div>
+
+
+
+
+</div>
+    </div>
+   
+</body>
+
+
+</html>

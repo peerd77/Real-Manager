@@ -1,0 +1,33 @@
+﻿.leagueCard {
+    background-color:#e1addb;
+    border: 1px solid black;
+    height:50px;
+    width: 150px;
+    margin-bottom: 20px;
+
+    
+}
+
+.teamCard {
+    background-color:#3f4574;
+    border: 1px solid black;
+    color: aqua;
+    height:50px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.playerCard {
+    background-color: aquamarine;
+    border: 1px solid black;
+    height:100px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.fillSpace {
+    color:black;
+    font-family:Andalus;
+    font-weight:600;
+
+}

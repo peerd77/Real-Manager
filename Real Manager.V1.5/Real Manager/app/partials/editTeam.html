@@ -1,0 +1,62 @@
+﻿<h3 data-ng-show="!isAdd">Edit Team {{teamId}}</h3>
+<h3 data-ng-hide="!isAdd">Add Team</h3>
+
+
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Team Name" data-ng-model="name">
+    <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
+</div>
+
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Number of Points" data-ng-model="points">
+    <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-star"></span></span>
+</div>
+<h4>Team Players:</h4>
+<div class="container">
+    <div class="row">
+        <div type="button" class="btn btn-default playerCard"
+             data-ng-repeat="player in players"
+             data-ng-click="playerSelect(player)">
+            <div>{{player.name}}</div>
+            <div>{{player.stars}}</div>
+            <div>{{player.position}}</div>
+            <div>{{player.price}}</div>
+        </div>
+    </div>
+</div>
+
+
+<button class="btn btn-primary" type="button"
+        data-ng-disabled="!name || !points"
+        data-ng-click="addPlayer()">
+    Add Player
+</button>
+<button class="btn btn-primary" type="button"
+        data-ng-disabled="!playerSelected"
+        data-ng-click="editPlayer()">
+    Edit Player
+</button>
+<button class="btn btn-primary" type="button"
+        data-ng-disabled="!playerSelected"
+        data-ng-click="deletePlayer()">
+    Delete Player
+</button>
+<br/>
+<button class="btn btn-primary" type="button"
+        data-ng-disabled="!name || !points"
+        data-ng-click="updateTeam()">
+    Save Team
+</button>
+
+<button class="btn btn-primary" type="button"
+        data-ng-disabled="saving"
+        data-ng-click="returnToTeamPage()">
+    Done
+</button>
+
+<h2>{{ans}}</h2>
+
+
+
+
+

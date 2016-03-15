@@ -1,0 +1,31 @@
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\Real Maneger.dll.config
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\Real Maneger.dll
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\Real Maneger.pdb
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\Antlr3.Runtime.dll
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\MongoDB.Bson.dll
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\MongoDB.Driver.Core.dll
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\MongoDB.Driver.dll
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\Newtonsoft.Json.dll
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\System.Web.Helpers.dll
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\System.Web.Mvc.dll
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\System.Web.Optimization.dll
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\System.Web.Razor.dll
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\System.Web.WebPages.dll
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\System.Web.WebPages.Razor.dll
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\WebGrease.dll
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\MongoDB.Bson.xml
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\MongoDB.Driver.xml
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\Newtonsoft.Json.xml
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\System.Web.Helpers.xml
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\System.Web.Mvc.xml
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\System.Web.Optimization.xml
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\System.Web.Razor.xml
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\System.Web.WebPages.xml
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\System.Web.WebPages.Razor.xml
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\bin\Antlr3.Runtime.pdb
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\obj\Release\Real Manager.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\obj\Release\Real Maneger.dll
+C:\Users\Daniel\Documents\Visual Studio 2013\Projects\Real Maneger.V1\Real Maneger\obj\Release\Real Maneger.pdb
